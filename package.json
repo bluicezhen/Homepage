@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "parcel build src/index.pug -d build/output",
+    "dev": "parcel src/index.pug"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-pug": "^0.2.5"
+  }
+}

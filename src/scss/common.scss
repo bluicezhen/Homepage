@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "mao-ze-dong";
+  src: url("../fonts/mao-ze-dong.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+@import './home.scss';

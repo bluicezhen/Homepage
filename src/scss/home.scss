@@ -1,0 +1,55 @@
+.home {
+  height: 100%;
+
+  .title {
+    height: 40%;
+    display: flex;
+
+    h1 {
+      margin: auto;
+      font-family: 'mao-ze-dong';
+      font-size: 4em;
+    }
+  }
+
+  .link-list {
+    width: 600px;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      height: 100px;
+
+      .link {
+        width: 50px;
+        text-align: center;
+        float: left;
+
+        .image {
+          width: 50px;
+          height: 50px;
+          display: flex;
+
+          svg {
+            width: 30px;
+            margin: auto;
+          }
+        }
+
+        p {
+          line-height: 0;
+          font-size: 0.9em;
+          color: black;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .link-list {
+      width: 80%;
+    }
+  }
+}
