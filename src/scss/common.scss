@@ -22,4 +22,10 @@ a {
   color: black;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @import './home.scss';
+@import './works.scss';
+@import './timeline.scss';
