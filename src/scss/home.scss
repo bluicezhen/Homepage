@@ -14,7 +14,6 @@
 
   .link-list {
     width: 600px;
-    height: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -50,6 +49,19 @@
   @media (max-width: 768px) {
     .link-list {
       width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      a {
+        .link {
+          width: 60px;
+
+          .image {
+            width: 60px;
+          }
+        }
+      }
     }
   }
 }
