@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "parcel build src/index.pug -d build/output",
+    "build": "rm -rf build && parcel build src/index.pug -d build/output && mv build/output/index.html build",
     "dev": "parcel src/index.pug"
   },
   "devDependencies": {
