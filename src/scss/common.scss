@@ -22,25 +22,29 @@ a {
   color: black;
 }
 
-::-webkit-scrollbar {
-  display: none;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
 }
 
 #back-to-top {
-  width: 50px;
-  height: 50px;
-  border: #777 solid 2px;
-  border-radius: 999px;
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  display: flex;
+  div {
+    width: 50px;
+    height: 50px;
+    border: #777 solid 2px;
+    border-radius: 999px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    z-index: 2;
 
-  svg {
-    color: #777777;
-    width: 60%;
-    height: auto;
-    margin: auto;
+    svg {
+      color: #777777;
+      width: 60%;
+      height: auto;
+      margin: auto;
+    }
   }
 }
 
