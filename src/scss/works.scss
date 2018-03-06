@@ -16,7 +16,7 @@
     flex-wrap: wrap;
 
     .work {
-      width: 300px;
+      width: 31%;
       height: 125px;
       border: #777 solid 1px;
       border-radius: 4px;
@@ -40,6 +40,19 @@
           font-size: 14px;
           margin: 0;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .works {
+    height: auto;
+    .work-list {
+      width: 90%;
+
+      .work {
+        width: 100%;
       }
     }
   }
